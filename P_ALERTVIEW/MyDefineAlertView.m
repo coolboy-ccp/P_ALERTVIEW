@@ -80,7 +80,7 @@ CGFloat const button_font = 16.0f;
     cancleButton.titleLabel.font = [UIFont systemFontOfSize:button_font];
     cancleButton.frame = CGRectMake(0, logoView.bounds.size.height - button_height, (logoView.bounds.size.width)/2, button_height);
     cancleButton.exclusiveTouch = YES;
-    [cancleButton setTitleColor:[UIColor grayColor] forState:UIControlStateNormal];
+    [cancleButton setTitleColor:[UIColor colorWithRed:171.0/255.0 green:171.0/255.0 blue:171.0/255.0 alpha:1.0] forState:UIControlStateNormal];
     
     okButton = [UIButton buttonWithType:UIButtonTypeCustom];
     okButton.frame = CGRectMake(cancleButton.bounds.size.width+1.0, logoView.bounds.size.height - button_height, (logoView.bounds.size.width)/2, button_height);
